@@ -1,0 +1,159 @@
+.contact-heading{
+    background: #ff5959;
+    padding-top: 7%;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.contact-heading h2{
+    /* padding-bottom: 8.3rem; */
+    color: #fff;
+    font-family: "ProximaNova-Light";
+    font-size: 40px;
+}
+.contact-heading p{
+    font-family: "ProximaNova-Light";
+    margin-top: 50px;
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 7%;
+}
+.from-layout{
+    padding: 5rem 0px
+}
+.form{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.from-group {
+    padding: 6px;
+    border-radius: 5px;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    margin: 0 10px 0 0 ;
+    border: 1px solid #979797;
+}
+
+.form-input{
+    font-size: 16px;
+    font-family: "ProximaNova-Regular";
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+     padding: 1rem;
+}
+.from-groups {
+    border-radius: 8px;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    margin: 0 10px 0 0;
+}
+.from-groups  button{
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border: none;
+    background-color: #ff5959;
+    font-family: "ProximaNova-Regular";
+    padding: 23px 82px 34px;
+}
+.from-groups  button:hover{
+    background-color: #7A7A7A;
+    color: #FFF;
+}
+
+.xxl {
+    font-weight: bold;
+    color: #FF5959;
+    padding: 1rem;
+    font-size: 1.7rem;
+    
+}
+.fa-solid{
+    display: none;
+}
+/* .from-group:hover .fa-solid{
+    display: block;
+} */
+.ms{
+    height: 11rem;
+}
+.from-group button{
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    border: none;
+    background-color: #ff5959;
+    font-family: "ProximaNova-Regular";
+    padding: 23px 82px 34px;
+}
+.logo-img{
+    height: 117px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.link{
+    display: grid;
+    place-items: center;
+}
+.link span {
+    font-family: "ProximaNova-Regular";
+    color: #5B5B5B;
+     margin-top: 15px;
+    font-size: 1.6rem;
+    line-height: 151%;
+}
+.map{
+    margin-top: 6rem;
+}
+.map iframe{
+    width: 100%;
+}
+
+@media  (max-width: 900px){
+    .contact-heading{
+        margin-top: 0;
+    }
+    .contact-heading h2{
+        margin-top: 8rem;
+        padding-bottom: 1.4rem;
+        font-size: 2.5rem;
+    }
+    .contact-heading p{
+        font-size: 1.7rem;
+    }
+    .form{
+        display: block;
+    }
+    .from-layout {
+        padding: 2rem 3rem;
+    }
+    .from-group {
+        height: 4rem;
+        margin: 2rem 0 0 0;
+    }
+    .ms{
+        height: 11rem;
+    }
+}
+@media  (max-width: 768px){
+.from-group {
+    padding: 0;
+    padding-bottom: 6px;
+    margin: 2rem 0 0 0;
+}
+
+}
